@@ -1,21 +1,49 @@
 aid: intucell
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/intucell.png
 name: Intucell
-description: 'Intucell is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Intucell was an Israeli self-optimizing network (SON) software company headquartered in
+  Ra'anana, Israel, whose platform let mobile carriers automatically plan, configure, manage,
+  optimize and heal cellular radio access networks in real time as network demand changed.
+  Backed by Bessemer Venture Partners on roughly $6M raised, Intucell was acquired by Cisco
+  Systems for approximately $475M in a deal completed February 25, 2013, and its SON technology
+  was folded into Cisco's mobility and service-provider portfolio (later divested to HCL).
+  The company operates no standalone public developer program or API today; this profile is
+  retained as an acquired-company / VC-portfolio record in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/intucell/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - bessemer-venture-partners
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: acquired-no-public-api
+x-status: acquired
+x-acquired-by: cisco
+x-acquired-date: '2013-02-25'
+x-acquired-price-usd: 475000000
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Unknown
+- Telecommunications
+- Self-Optimizing Networks
+- Mobile Networks
+- Radio Access Network
+- Networking
+- Acquired
+- Israel
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +53,10 @@ maintainers:
 common:
 - type: Website
   url: http://www.intucellsystems.com
+- type: CrunchbaseOrganization
+  url: https://www.crunchbase.com/organization/intucell
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
