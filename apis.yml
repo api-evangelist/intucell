@@ -32,7 +32,7 @@ x-status: acquired
 x-acquired-by: cisco
 x-acquired-date: '2013-02-25'
 x-acquired-price-usd: 475000000
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
